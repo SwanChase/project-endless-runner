@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class BackgroundMovment : MonoBehaviour {
+public class Movmentscript : MonoBehaviour {
 	
 	public float speed = 2f;
 	public float horizontalDirection = -1; //move from right to left
