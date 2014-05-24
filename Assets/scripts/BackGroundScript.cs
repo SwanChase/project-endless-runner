@@ -14,7 +14,6 @@ public class BackGroundScript : MonoBehaviour {
 	
 	void OnBecameInvisible()
 	{
-		Debug.Log (5);
 		//calculate current position
 		backPos = gameObject.transform.position;
 		//calculate new position
@@ -24,5 +23,5 @@ public class BackGroundScript : MonoBehaviour {
 		//move to new position when invisible
 		gameObject.transform.position = new Vector3 (X, Y, 0f);
 	}
-	
+
 }
