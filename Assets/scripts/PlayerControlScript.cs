@@ -8,6 +8,7 @@ public class PlayerControlScript : MonoBehaviour
 	
 	void Update () 
 	{
+
 		// Amount to Move
 		float MoveForward = Input.GetAxis("Vertical")  * MoveSpeed * Time.deltaTime;
 		float MoveRotate = Input.GetAxis("Horizontal") * RotateSpeed * Time.deltaTime;
